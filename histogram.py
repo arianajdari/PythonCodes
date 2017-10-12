@@ -1,7 +1,9 @@
 import cv2
 import sys
 import numpy as np 
-from matplotlib import pyplot as plt
+import matplotlib as mpl
+mpl.use('Agg')
+import matplotlib.pyplot as plt
 
 
 image = cv2.imread(sys.argv[1])
